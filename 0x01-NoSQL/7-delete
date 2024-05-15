@@ -1,0 +1,2 @@
+// Deleting an existing document with acertain key-value
+db.school.delete({name: "Holberton school"})
