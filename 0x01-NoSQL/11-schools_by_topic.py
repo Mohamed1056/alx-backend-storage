@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-'''
-Script for finding some information
-about a certain topic.
-'''
+"""
+Where can I learn Python?
+"""
 
 
 def schools_by_topic(mongo_collection, topic):
-    '''
-    function to return a certain
-    topic.
-    '''
-    return mongo_collection.find({"topic": topic})
+    """
+     returns the list of school having a specific topic
+
+    :param mongo_collection:
+    :param topic:
+    :return:
+    """
+    return mongo_collection.find({"topics": topic})
