@@ -1,0 +1,2 @@
+// lists all documents containing certain key-value
+db.school.find({name: "Holberton school"})
